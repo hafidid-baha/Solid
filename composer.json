@@ -1,0 +1,16 @@
+{
+    "name": "app/solid",
+    "description": "this app is created to learn how we can use solid principles",
+    "authors": [
+        {
+            "name": "hafid id-baha",
+            "email": "hafidsoftdev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SOLID\\":"Princ/"
+        }
+    }
+}
