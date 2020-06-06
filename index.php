@@ -38,9 +38,13 @@ echo  '<br /> pem employee salary '.$permEmp->getEmplyeeBounus().'<br />';
 echo '----------- Likov Substitution principle<br />';
 
 echo 'lets fire the normal employee<br />';
-
+$fireRegulare = new FireEmployee($employee);
+$fireRegulare->fireEmployee();
 
 echo 'lets fire the normal perm employee<br />';
+
+$firePer = new FireEmployee($permEmp);
+$firePer->fireEmployee();
 
 // Likov Substitution principle section ends
 

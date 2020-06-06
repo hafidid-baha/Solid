@@ -19,4 +19,8 @@ class Employee{
         return $this->salary*0.1;
     }
 
+    public function getName(){
+        return $this->fullName;
+    }
+
 }
