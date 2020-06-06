@@ -1,7 +1,9 @@
 interface sugregation principle
 
-no client be forced to depends on method it does not use
-witch means instead of one big interface we should splite our interface into small interfaces
+"no client should be forced to depends on method it does not use"
+
+witch means instead of one big interface we should splite our interface into small
+interfaces
 
 in these case we have to type of aniamls (birds,Reptiles)
 + master calss is animale
