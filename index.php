@@ -12,6 +12,8 @@ use SOLID\SRP\Validator;
 use SOLID\OCP\Employee;
 use SOLID\OCP\PermanentEmp;
 
+use SOLID\LSP\FireEmployee;
+
 require_once __DIR__.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
 
 /// single reponsibility principle section start
@@ -31,6 +33,16 @@ echo  '<br /> pem employee salary '.$permEmp->getEmplyeeBounus().'<br />';
 
 // open closed principle section ends
 
+
+// Likov Substitution principle section starts
+echo '----------- Likov Substitution principle<br />';
+
+echo 'lets fire the normal employee<br />';
+
+
+echo 'lets fire the normal perm employee<br />';
+
+// Likov Substitution principle section ends
 
 
 
