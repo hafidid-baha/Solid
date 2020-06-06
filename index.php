@@ -12,6 +12,9 @@ use SOLID\SRP\Validator;
 use SOLID\OCP\Employee;
 use SOLID\OCP\PermanentEmp;
 
+use SOLID\ISP\Bird;
+use SOLID\ISP\Reptile;
+
 use SOLID\LSP\FireEmployee;
 
 require_once __DIR__.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
@@ -47,6 +50,18 @@ $firePer = new FireEmployee($permEmp);
 $firePer->fireEmployee();
 
 // Likov Substitution principle section ends
+
+// inteface sagregation principle section starts
+
+echo '---------- inteface sagregation principle <br />';
+
+$bird = new Bird("birdname","white",3);
+$bird->doFly();
+echo '<br />';
+$reptile = new Reptile("ripName","red",5);
+$reptile->doCrawl();
+
+// inteface sagregation principle section ends
 
 
 
